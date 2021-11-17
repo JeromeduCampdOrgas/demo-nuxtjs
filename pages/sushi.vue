@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello here are my Sushis</h1>
+    <h1>Tous les sushis</h1>
     <div v-for="sushi of sushis" :key="sushi.id">
       <nuxtLink :to="'/sushis/' + sushi.id">
         <img :src="sushi.image" alt="" />
